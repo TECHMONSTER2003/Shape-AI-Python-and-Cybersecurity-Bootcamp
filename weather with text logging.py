@@ -34,4 +34,4 @@ with open('weather.txt','r') as f:
     reader=csv.reader(f)
     for row in reader:
         print(row)
-e.close()
+f.close()
